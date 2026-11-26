@@ -5,5 +5,35 @@
   "interstitial_min_interval_ms": 60000,
   "interstitial_min_watch_ms": 5000,
   "rewarded_min_watch_ms": 15000,
-  "creatives": []
+  "creatives": [
+    {
+      "id": "aero_screen_1",
+      "format": "image",
+      "placements": [
+        "interstitial",
+        "rewarded"
+      ],
+      "image_url": "https://vachek-hooves.github.io/9714-Aero_house_ad/media/screen.png",
+      "title": "",
+      "body": "",
+      "cta_text": "PLAY NOW",
+      "bundle_id": "com.kickboxing.imp.roove.plan",
+      "store_url": "https://play.google.com/store/apps/details?id=com.kickboxing.imp.roove.plan",
+      "weight": 1
+    },
+    {
+      "id": "aero_banner_1",
+      "format": "image",
+      "placements": [
+        "banner"
+      ],
+      "image_url": "https://vachek-hooves.github.io/9714-Aero_house_ad/media/bottom.png",
+      "title": "",
+      "body": "",
+      "cta_text": "PLAY NOW",
+      "bundle_id": "com.kickboxing.imp.roove.plan",
+      "store_url": "https://play.google.com/store/apps/details?id=com.kickboxing.imp.roove.plan",
+      "weight": 1
+    }
+  ]
 }
